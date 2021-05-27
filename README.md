@@ -5,11 +5,9 @@ Home: https://CRAN.R-project.org/package=ggdark
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggdark-feedstock/blob/master/LICENSE.txt)
 
 Summary: Activate dark mode on your favorite 'ggplot2' theme with dark_mode() or use the dark versions of 'ggplot2' themes, including dark_theme_gray(), dark_theme_minimal(), and others. When a dark theme is applied, all geom color and geom fill defaults are changed to make them visible against a dark background. To restore the defaults to their original values, use invert_geom_defaults().
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-ggdark` from the `conda-forge` channel can be achieved by adding `
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-ggdark` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
