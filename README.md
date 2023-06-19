@@ -1,11 +1,11 @@
-About r-ggdark
-==============
+About r-ggdark-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggdark-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=ggdark
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggdark-feedstock/blob/main/LICENSE.txt)
 
 Summary: Activate dark mode on your favorite 'ggplot2' theme with dark_mode() or use the dark versions of 'ggplot2' themes, including dark_theme_gray(), dark_theme_minimal(), and others. When a dark theme is applied, all geom color and geom fill defaults are changed to make them visible against a dark background. To restore the defaults to their original values, use invert_geom_defaults().
 
